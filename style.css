@@ -1,0 +1,41 @@
+/* Reset style */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* common style */
+
+/* navbar style */
+header {
+    /* background-color: aquamarine; */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+}
+.logo img {
+    width: 110px;
+}
+.nav-link {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.nav-link a {
+    text-decoration: none;
+    color: #575757;
+}
+.nav-btn {
+    background-color: #1D4ED8;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 12px 24px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
